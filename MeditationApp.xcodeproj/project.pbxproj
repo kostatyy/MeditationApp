@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52D7BCAC267632380032E52F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D7BCAB267632380032E52F /* AppDelegate.swift */; };
+		52D7BCAE267632380032E52F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D7BCAD267632380032E52F /* SceneDelegate.swift */; };
+		52D7BCB0267632380032E52F /* RelaxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D7BCAF267632380032E52F /* RelaxViewController.swift */; };
+		52D7BCB52676323B0032E52F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D7BCB42676323B0032E52F /* Assets.xcassets */; };
+		52D7BCB82676323B0032E52F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D7BCB62676323B0032E52F /* LaunchScreen.storyboard */; };
+		52D7BCC1267632A70032E52F /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D7BCC0267632A70032E52F /* MainTabBarController.swift */; };
+		52D7BCC9267633310032E52F /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D7BCC8267633310032E52F /* MusicViewController.swift */; };
+		52D7BCCC2676333B0032E52F /* DreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D7BCCB2676333B0032E52F /* DreamViewController.swift */; };
+		52D7BCD1267633D00032E52F /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D7BCD0267633D00032E52F /* UIViewController+Ext.swift */; };
+		52D7BCD5267639E20032E52F /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D7BCD4267639E20032E52F /* UIColor+Ext.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52D7BCA8267632380032E52F /* MeditationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeditationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D7BCAB267632380032E52F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52D7BCAD267632380032E52F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		52D7BCAF267632380032E52F /* RelaxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxViewController.swift; sourceTree = "<group>"; };
+		52D7BCB42676323B0032E52F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52D7BCB72676323B0032E52F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52D7BCB92676323B0032E52F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D7BCC0267632A70032E52F /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		52D7BCC8267633310032E52F /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		52D7BCCB2676333B0032E52F /* DreamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamViewController.swift; sourceTree = "<group>"; };
+		52D7BCD0267633D00032E52F /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		52D7BCD4267639E20032E52F /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52D7BCA5267632380032E52F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52D7BC9F267632380032E52F = {
+			isa = PBXGroup;
+			children = (
+				52D7BCAA267632380032E52F /* MeditationApp */,
+				52D7BCA9267632380032E52F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52D7BCA9267632380032E52F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52D7BCA8267632380032E52F /* MeditationApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52D7BCAA267632380032E52F /* MeditationApp */ = {
+			isa = PBXGroup;
+			children = (
+				52D7BCAB267632380032E52F /* AppDelegate.swift */,
+				52D7BCAD267632380032E52F /* SceneDelegate.swift */,
+				52D7BCCF267633C20032E52F /* Extensions */,
+				52D7BCC4267632F30032E52F /* Controllers */,
+				52D7BCB42676323B0032E52F /* Assets.xcassets */,
+				52D7BCB62676323B0032E52F /* LaunchScreen.storyboard */,
+				52D7BCB92676323B0032E52F /* Info.plist */,
+			);
+			path = MeditationApp;
+			sourceTree = "<group>";
+		};
+		52D7BCC4267632F30032E52F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				52D7BCC0267632A70032E52F /* MainTabBarController.swift */,
+				52D7BCC8267633310032E52F /* MusicViewController.swift */,
+				52D7BCAF267632380032E52F /* RelaxViewController.swift */,
+				52D7BCCB2676333B0032E52F /* DreamViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		52D7BCCF267633C20032E52F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				52D7BCD9267639FA0032E52F /* UI */,
+				52D7BCD7267639F50032E52F /* Colors */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		52D7BCD7267639F50032E52F /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				52D7BCD4267639E20032E52F /* UIColor+Ext.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		52D7BCD9267639FA0032E52F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				52D7BCD0267633D00032E52F /* UIViewController+Ext.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52D7BCA7267632380032E52F /* MeditationApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52D7BCBC2676323B0032E52F /* Build configuration list for PBXNativeTarget "MeditationApp" */;
+			buildPhases = (
+				52D7BCA4267632380032E52F /* Sources */,
+				52D7BCA5267632380032E52F /* Frameworks */,
+				52D7BCA6267632380032E52F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeditationApp;
+			productName = MeditationApp;
+			productReference = 52D7BCA8267632380032E52F /* MeditationApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52D7BCA0267632380032E52F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					52D7BCA7267632380032E52F = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 52D7BCA3267632380032E52F /* Build configuration list for PBXProject "MeditationApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52D7BC9F267632380032E52F;
+			productRefGroup = 52D7BCA9267632380032E52F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52D7BCA7267632380032E52F /* MeditationApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52D7BCA6267632380032E52F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D7BCB82676323B0032E52F /* LaunchScreen.storyboard in Resources */,
+				52D7BCB52676323B0032E52F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52D7BCA4267632380032E52F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D7BCB0267632380032E52F /* RelaxViewController.swift in Sources */,
+				52D7BCC9267633310032E52F /* MusicViewController.swift in Sources */,
+				52D7BCD1267633D00032E52F /* UIViewController+Ext.swift in Sources */,
+				52D7BCAC267632380032E52F /* AppDelegate.swift in Sources */,
+				52D7BCC1267632A70032E52F /* MainTabBarController.swift in Sources */,
+				52D7BCD5267639E20032E52F /* UIColor+Ext.swift in Sources */,
+				52D7BCCC2676333B0032E52F /* DreamViewController.swift in Sources */,
+				52D7BCAE267632380032E52F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52D7BCB62676323B0032E52F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52D7BCB72676323B0032E52F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52D7BCBA2676323B0032E52F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52D7BCBB2676323B0032E52F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52D7BCBD2676323B0032E52F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RWU4M8Y9HU;
+				INFOPLIST_FILE = MeditationApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kostatyyy.MeditationApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52D7BCBE2676323B0032E52F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RWU4M8Y9HU;
+				INFOPLIST_FILE = MeditationApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kostatyyy.MeditationApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52D7BCA3267632380032E52F /* Build configuration list for PBXProject "MeditationApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D7BCBA2676323B0032E52F /* Debug */,
+				52D7BCBB2676323B0032E52F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52D7BCBC2676323B0032E52F /* Build configuration list for PBXNativeTarget "MeditationApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D7BCBD2676323B0032E52F /* Debug */,
+				52D7BCBE2676323B0032E52F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52D7BCA0267632380032E52F /* Project object */;
+}
