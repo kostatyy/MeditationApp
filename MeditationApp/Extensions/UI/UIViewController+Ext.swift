@@ -9,17 +9,6 @@ import UIKit
 
 extension UIViewController {
     
-    /* View Controller Customization */
-    func customizeViewController(title: String, image: UIImage, bgColor: UIColor) {
-        let tabBarItem = UITabBarItem()
-        
-        tabBarItem.title = title
-        tabBarItem.image = image
-        view.backgroundColor = bgColor
-        
-        self.tabBarItem = tabBarItem
-    }
-    
     /* Navigation Bar Customization */
     func customizeNaviogationBar() {
         navigationController?.navigationBar.backItem?.title = ""

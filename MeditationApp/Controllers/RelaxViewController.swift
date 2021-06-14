@@ -14,7 +14,6 @@ class RelaxViewController: UIViewController {
         
         navigationItem.title = "Relax"
         customizeNaviogationBar()
-
     }
 
 

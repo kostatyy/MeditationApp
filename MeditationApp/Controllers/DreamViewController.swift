@@ -14,7 +14,6 @@ class DreamViewController: UIViewController {
 
         navigationItem.title = "Dream"
         customizeNaviogationBar()
-
     }
 
 }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5204D0E526767F6C00DD0388 /* TapNavigationMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5204D0E426767F6C00DD0388 /* TapNavigationMenu.swift */; };
+		5204D0E826775CE200DD0388 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5204D0E726775CE200DD0388 /* UIView+Ext.swift */; };
 		52D7BCAC267632380032E52F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D7BCAB267632380032E52F /* AppDelegate.swift */; };
 		52D7BCAE267632380032E52F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D7BCAD267632380032E52F /* SceneDelegate.swift */; };
 		52D7BCB0267632380032E52F /* RelaxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D7BCAF267632380032E52F /* RelaxViewController.swift */; };
@@ -17,9 +19,12 @@
 		52D7BCCC2676333B0032E52F /* DreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D7BCCB2676333B0032E52F /* DreamViewController.swift */; };
 		52D7BCD1267633D00032E52F /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D7BCD0267633D00032E52F /* UIViewController+Ext.swift */; };
 		52D7BCD5267639E20032E52F /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D7BCD4267639E20032E52F /* UIColor+Ext.swift */; };
+		52D7BCE32676458C0032E52F /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D7BCE22676458C0032E52F /* TabItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5204D0E426767F6C00DD0388 /* TapNavigationMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapNavigationMenu.swift; sourceTree = "<group>"; };
+		5204D0E726775CE200DD0388 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		52D7BCA8267632380032E52F /* MeditationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeditationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D7BCAB267632380032E52F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52D7BCAD267632380032E52F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +37,7 @@
 		52D7BCCB2676333B0032E52F /* DreamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamViewController.swift; sourceTree = "<group>"; };
 		52D7BCD0267633D00032E52F /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 		52D7BCD4267639E20032E52F /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		52D7BCE22676458C0032E52F /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,7 @@
 				52D7BCAB267632380032E52F /* AppDelegate.swift */,
 				52D7BCAD267632380032E52F /* SceneDelegate.swift */,
 				52D7BCCF267633C20032E52F /* Extensions */,
+				52D7BCDB26763D9C0032E52F /* Views */,
 				52D7BCC4267632F30032E52F /* Controllers */,
 				52D7BCB42676323B0032E52F /* Assets.xcassets */,
 				52D7BCB62676323B0032E52F /* LaunchScreen.storyboard */,
@@ -107,8 +114,26 @@
 			isa = PBXGroup;
 			children = (
 				52D7BCD0267633D00032E52F /* UIViewController+Ext.swift */,
+				5204D0E726775CE200DD0388 /* UIView+Ext.swift */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		52D7BCDB26763D9C0032E52F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52D7BCE0267645810032E52F /* CustomTabBar */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		52D7BCE0267645810032E52F /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				52D7BCE22676458C0032E52F /* TabItem.swift */,
+				5204D0E426767F6C00DD0388 /* TapNavigationMenu.swift */,
+			);
+			path = CustomTabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,9 +207,12 @@
 			files = (
 				52D7BCB0267632380032E52F /* RelaxViewController.swift in Sources */,
 				52D7BCC9267633310032E52F /* MusicViewController.swift in Sources */,
+				5204D0E526767F6C00DD0388 /* TapNavigationMenu.swift in Sources */,
 				52D7BCD1267633D00032E52F /* UIViewController+Ext.swift in Sources */,
 				52D7BCAC267632380032E52F /* AppDelegate.swift in Sources */,
+				52D7BCE32676458C0032E52F /* TabItem.swift in Sources */,
 				52D7BCC1267632A70032E52F /* MainTabBarController.swift in Sources */,
+				5204D0E826775CE200DD0388 /* UIView+Ext.swift in Sources */,
 				52D7BCD5267639E20032E52F /* UIColor+Ext.swift in Sources */,
 				52D7BCCC2676333B0032E52F /* DreamViewController.swift in Sources */,
 				52D7BCAE267632380032E52F /* SceneDelegate.swift in Sources */,
