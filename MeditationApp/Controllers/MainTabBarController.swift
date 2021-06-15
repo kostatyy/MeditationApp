@@ -31,7 +31,7 @@ class MainTabBarController: UITabBarController {
             self.viewControllers = controllers
         }
         
-        selectedIndex = 0
+        selectedIndex = 1
     }
     
     func setupCustomTabMenu(_ menuItems: [TabItem], completion: @escaping ([UIViewController]) -> Void) {

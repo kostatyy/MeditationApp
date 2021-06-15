@@ -13,12 +13,8 @@ extension UIColor {
     static var musicBgColor = UIColor(rgb: 0x5c3c92)
     static var relaxBgColor = UIColor(rgb: 0x077b8a)
     static var dreamBgColor = UIColor(rgb: 0x12a4d9)
-    static var friendsBgColor = UIColor(rgb: 0xfbcbc9)
-    static var settingsBgColor = UIColor(rgb: 0xef9d10f)
     
-    // MARK: - GRADIENT COLORS
-    static var gradientColorTop = toRGB(red: 246, green: 54, blue: 105)
-    static var gradientColorBottom = toRGB(red: 90, green: 52, blue: 169)
+    static var mainColor = UIColor(rgb: 0x18293d)
 
     static func toRGB(red: CGFloat, green: CGFloat, blue: CGFloat) -> UIColor {
         return UIColor(red: red/255, green: green/255, blue: blue/255, alpha: 1)

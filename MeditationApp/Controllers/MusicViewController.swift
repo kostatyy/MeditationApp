@@ -13,7 +13,6 @@ class MusicViewController: UIViewController {
         super.viewDidLoad()
         
         navigationItem.title = "Music"
-        customizeNaviogationBar()
     }
     
 }

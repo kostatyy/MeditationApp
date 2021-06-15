@@ -42,9 +42,6 @@ class TabNavigationMenu: UIView {
         tabBarHeight = frame.height
         
         itemTitles = [UILabel(), UILabel(), UILabel()]
-        itemTitles.forEach {
-            $0.layer.zPosition = 30
-        }
         circleViews = [musicCircle, relaxCircle, dreamCircle]
         
         setupCurvedView()
@@ -77,7 +74,7 @@ class TabNavigationMenu: UIView {
         circleViews.forEach {
             $0.layer.cornerRadius = $0.frame.width / 2
         }
-        activateTab(tab: 0)
+        activateTab(tab: 1)
     }
     
     func createTabItem(item: TabItem, itemIconBgView: inout UIView, itemTitleLabel: inout UILabel, titleLeftAnchorConstant: CGFloat) -> UIView {
@@ -121,7 +118,7 @@ class TabNavigationMenu: UIView {
             itemIconView.centerYAnchor.constraint(equalTo: itemIconBgView.centerYAnchor),
             
             itemTitleLabel.centerXAnchor.constraint(equalTo: curvedView.leftAnchor, constant: titleLeftAnchorConstant),
-            itemTitleLabel.topAnchor.constraint(equalTo: curvedView.centerYAnchor, constant: -tabBarHeight * 0.2)
+            itemTitleLabel.topAnchor.constraint(equalTo: curvedView.centerYAnchor, constant: -tabBarHeight * 0.15)
         ])
         
         tabBarItem.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(self.handleTap)))

@@ -8,18 +8,23 @@
 import UIKit
 
 extension UIViewController {
-    
+    /* Setting Up Navigation Buttons (Settings, Notifications) */
+    func setupNavigationButtons() {
+        let menuImage = UIImage(named: "menu")?.withRenderingMode(.alwaysOriginal)
+        let bellImage = UIImage(named: "bell")?.withRenderingMode(.alwaysOriginal)
+        
+        navigationItem.leftBarButtonItem = UIBarButtonItem(image: menuImage, style: .done, target: self, action: nil)
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: bellImage, style: .done, target: self, action: nil)
+    }
+}
+
+extension UINavigationController {
     /* Navigation Bar Customization */
-    func customizeNaviogationBar() {
-        navigationController?.navigationBar.backItem?.title = ""
-        navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style:.plain, target:nil, action:nil)
-        navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
-        navigationController?.navigationBar.shadowImage = UIImage()
-        navigationController?.navigationBar.isTranslucent = true
-        navigationController?.navigationBar.tintColor = .white
-        navigationController?.navigationBar.titleTextAttributes = [
-            .foregroundColor: UIColor.white
+    func customizeNavigationBar() {
+        navigationBar.setBackgroundImage(UIImage(), for: .default)
+        navigationBar.shadowImage = UIImage()
+        navigationBar.titleTextAttributes = [
+            .foregroundColor: UIColor.mainColor
         ]
     }
-    
 }

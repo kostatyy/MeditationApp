@@ -41,9 +41,10 @@ enum TabItem: String, CaseIterable {
     }
     
     fileprivate func generateNavViewController(vc: UIViewController, title: String, bgColor: UIColor) -> UINavigationController {
-        vc.view.backgroundColor = bgColor
+        vc.view.backgroundColor = .white
+        vc.setupNavigationButtons()
         let navController = UINavigationController(rootViewController: vc)
-        navController.title = title
+        navController.customizeNavigationBar()
         return navController
     }
 }
