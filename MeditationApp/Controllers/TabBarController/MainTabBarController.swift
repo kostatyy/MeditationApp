@@ -7,9 +7,9 @@
 
 import UIKit
 
+var customTabBar: TabNavigationMenu!
+
 class MainTabBarController: UITabBarController {
-    
-    var customTabBar: TabNavigationMenu!
     
     var tabBarWidth: CGFloat!
     var tabBarHeight: CGFloat!
@@ -22,6 +22,7 @@ class MainTabBarController: UITabBarController {
         
         tabBar.isHidden = true
         loadTabBar()
+//        customTabBar.isHidden = true
     }
     
     func loadTabBar() {
@@ -39,20 +40,20 @@ class MainTabBarController: UITabBarController {
         let frame = tabBar.frame
         var controllers = [UIViewController]()
         
-        self.customTabBar = TabNavigationMenu(menuItems: menuItems, frame: frame)
-        self.customTabBar.translatesAutoresizingMaskIntoConstraints = false
-        self.customTabBar.clipsToBounds = true
-        self.customTabBar.itemTapped = self.changeTab
+        customTabBar = TabNavigationMenu(menuItems: menuItems, frame: frame)
+        customTabBar.translatesAutoresizingMaskIntoConstraints = false
+        customTabBar.clipsToBounds = true
+        customTabBar.itemTapped = self.changeTab
         
         // Add it to the view
         self.view.addSubview(customTabBar)
         
         // Add positioning constraints to place the nav menu right where the tab bar should be
         NSLayoutConstraint.activate([
-            self.customTabBar.leadingAnchor.constraint(equalTo: tabBar.leadingAnchor),
-            self.customTabBar.trailingAnchor.constraint(equalTo: tabBar.trailingAnchor),
-            self.customTabBar.heightAnchor.constraint(equalToConstant: tabBarHeight),
-            self.customTabBar.bottomAnchor.constraint(equalTo: tabBar.bottomAnchor)
+            customTabBar.leadingAnchor.constraint(equalTo: tabBar.leadingAnchor),
+            customTabBar.trailingAnchor.constraint(equalTo: tabBar.trailingAnchor),
+            customTabBar.heightAnchor.constraint(equalToConstant: tabBarHeight),
+            customTabBar.bottomAnchor.constraint(equalTo: tabBar.bottomAnchor)
         ])
         
         for i in 0 ..< menuItems.count {

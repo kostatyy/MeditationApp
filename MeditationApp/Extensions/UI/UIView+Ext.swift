@@ -39,44 +39,46 @@ extension UIView {
         }
     }
     
-    func setViewMask() {
-        let centerWidth: CGFloat = frame.width / 2
-        let curveHeight: CGFloat = 40
-        let curveCornerRadius: CGFloat = 15
-        let path = UIBezierPath()
+    func setupShadow(cornerRad: CGFloat, shadowRad: CGFloat, shadowOp: Float, offset: CGSize) {
+        layer.cornerRadius = cornerRad
+        layer.shadowOffset = offset
+        layer.shadowRadius = shadowRad
+        layer.shadowOpacity = shadowOp
+        layer.shadowColor = UIColor.black.cgColor
+        layer.shouldRasterize = true
+        layer.rasterizationScale = UIScreen.main.scale
+        layer.shadowPath = UIBezierPath(ovalIn: CGRect(x: frame.width * 0.15, y: frame.height - 20, width: frame.width * 0.7, height: frame.height * 0.15)).cgPath
+    }
+    
+    func setupShadoww(cornerRad: CGFloat, shadowRad: CGFloat, shadowOp: Float, offset: CGSize) {
+        layer.cornerRadius = cornerRad
+        layer.shadowOffset = offset
+        layer.shadowRadius = shadowRad
+        layer.shadowOpacity = shadowOp
+        layer.shadowColor = UIColor.black.cgColor
+        layer.shouldRasterize = true
+        layer.rasterizationScale = UIScreen.main.scale
+    }
+    
+    func fadeTransition(_ duration: CFTimeInterval) {
+        let animation = CATransition()
+        animation.timingFunction = CAMediaTimingFunction(name: .easeInEaseOut)
+        animation.type = .fade
+        animation.duration = duration
+        layer.add(animation, forKey: CATransitionType.fade.rawValue)
+    }
+    
+    /* Setting gradient for fields stack */
+    func setGradientFill(colorTop: CGColor, colorBottom: CGColor, cornerRadius: CGFloat, startPoint: CGPoint, endPoint: CGPoint, opacity: Float) {
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.colors = [colorBottom, colorTop]
+        gradientLayer.startPoint = startPoint
+        gradientLayer.endPoint = endPoint
+        gradientLayer.opacity = opacity
+        gradientLayer.frame = self.bounds
         
-        // Top Left Corner
-        path.move(to: CGPoint(x: 0, y: curveCornerRadius))
-        path.addArc(withCenter: CGPoint(x: curveCornerRadius, y: curveCornerRadius),
-                    radius: curveCornerRadius,
-                    startAngle: .pi / 2,
-                    endAngle: -.pi / 2,
-                    clockwise: true)
-        
-        // Top Curve Line
-        path.addLine(to: CGPoint(x: centerWidth - curveHeight * 2.5, y: 0))
-        path.addCurve(to: CGPoint(x: centerWidth, y: -curveHeight),
-                      controlPoint1: CGPoint(x: centerWidth - 30, y: 0),
-                      controlPoint2: CGPoint(x: centerWidth - 35, y: -curveHeight))
-        path.addCurve(to: CGPoint(x: centerWidth + curveHeight * 2.5, y: 0),
-                      controlPoint1: CGPoint(x: centerWidth + 35, y: -curveHeight),
-                      controlPoint2: CGPoint(x: centerWidth + 30, y: 0))
-        
-        // Top Right Corner
-        path.addLine(to: CGPoint(x: frame.width - curveCornerRadius, y: 0))
-        path.addArc(withCenter: CGPoint(x: frame.width - curveCornerRadius, y: curveCornerRadius),
-                    radius: curveCornerRadius,
-                    startAngle: -.pi / 2,
-                    endAngle: 0,
-                    clockwise: true)
-        
-        
-        path.addLine(to: CGPoint(x: frame.width, y: frame.height))
-        path.addLine(to: CGPoint(x: 0, y: frame.height))
-        path.close()
-        
-        let mask = CAShapeLayer()
-        mask.path = path.cgPath
-        layer.mask = mask
+        self.layer.masksToBounds = true
+        self.layer.cornerRadius = cornerRadius
+        self.layer.insertSublayer(gradientLayer, at: 0)
     }
 }

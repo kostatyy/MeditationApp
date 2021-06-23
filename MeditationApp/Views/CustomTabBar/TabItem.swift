@@ -16,11 +16,17 @@ enum TabItem: String, CaseIterable {
     var viewController: UIViewController {
         switch self {
         case .Music:
-            return generateNavViewController(vc: MusicViewController(), title: "Music", bgColor: .musicBgColor)
+            let musicCoordinator = MusicCoordinator(navigationController: UINavigationController())
+            musicCoordinator.start()
+            return musicCoordinator.navigationController
         case .Relax:
-            return generateNavViewController(vc: RelaxViewController(), title: "Music", bgColor: .relaxBgColor)
+            let musicCoordinator = RelaxCoordinator(navigationController: UINavigationController())
+            musicCoordinator.start()
+            return musicCoordinator.navigationController
         case .Dream:
-            return generateNavViewController(vc: DreamViewController(), title: "Music", bgColor: .dreamBgColor)
+            let musicCoordinator = DreamCoordinator(navigationController: UINavigationController())
+            musicCoordinator.start()
+            return musicCoordinator.navigationController
         }
     }
     
@@ -40,7 +46,7 @@ enum TabItem: String, CaseIterable {
         return self.rawValue.capitalized(with: nil)
     }
     
-    fileprivate func generateNavViewController(vc: UIViewController, title: String, bgColor: UIColor) -> UINavigationController {
+    fileprivate func generateNavViewController(vc: UIViewController, bgColor: UIColor) -> UINavigationController {
         vc.view.backgroundColor = .white
         vc.setupNavigationButtons()
         let navController = UINavigationController(rootViewController: vc)

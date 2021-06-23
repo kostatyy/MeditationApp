@@ -28,6 +28,35 @@
 		52D7BCD1267633D00032E52F /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D7BCD0267633D00032E52F /* UIViewController+Ext.swift */; };
 		52D7BCD5267639E20032E52F /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D7BCD4267639E20032E52F /* UIColor+Ext.swift */; };
 		52D7BCE32676458C0032E52F /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D7BCE22676458C0032E52F /* TabItem.swift */; };
+		52DEA033267945F000ED1447 /* RelaxSectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DEA032267945F000ED1447 /* RelaxSectionViewController.swift */; };
+		52DEA03826794B3800ED1447 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DEA03726794B3800ED1447 /* Coordinator.swift */; };
+		52DEA03D26794BAA00ED1447 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DEA03C26794BAA00ED1447 /* AppCoordinator.swift */; };
+		52DEA04526794DB000ED1447 /* RelaxCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DEA04426794DAF00ED1447 /* RelaxCoordinator.swift */; };
+		52DEA0492679E8DD00ED1447 /* MusicCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DEA0482679E8DD00ED1447 /* MusicCoordinator.swift */; };
+		52DEA04C2679E8EE00ED1447 /* DreamCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DEA04B2679E8EE00ED1447 /* DreamCoordinator.swift */; };
+		52DEA0502679EDF000ED1447 /* RelaxSectionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DEA04F2679EDF000ED1447 /* RelaxSectionCoordinator.swift */; };
+		52DEA0542679EE7600ED1447 /* RelaxViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DEA0532679EE7600ED1447 /* RelaxViewModel.swift */; };
+		52DEA05F267A272600ED1447 /* RelaxSongsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DEA05E267A272600ED1447 /* RelaxSongsView.swift */; };
+		52DEA062267A2F1B00ED1447 /* RelaxSongsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DEA061267A2F1B00ED1447 /* RelaxSongsCell.swift */; };
+		52DEA065267A5EE000ED1447 /* RelaxPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DEA064267A5EE000ED1447 /* RelaxPlayerView.swift */; };
+		52DEA068267A6D8700ED1447 /* UILabel+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DEA067267A6D8700ED1447 /* UILabel+Ext.swift */; };
+		52DEA06C267A89B300ED1447 /* TrackInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DEA06B267A89B300ED1447 /* TrackInfo.swift */; };
+		52DEA072267A8AE900ED1447 /* RelaxSongsCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DEA071267A8AE900ED1447 /* RelaxSongsCellViewModel.swift */; };
+		52DEA077267A8CB600ED1447 /* RelaxSongsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DEA076267A8CB600ED1447 /* RelaxSongsCollectionView.swift */; };
+		52DEA07E267A91B600ED1447 /* RelaxSectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DEA07D267A91B600ED1447 /* RelaxSectionViewModel.swift */; };
+		52DEA083267B42B300ED1447 /* RelaxBgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DEA082267B42B300ED1447 /* RelaxBgView.swift */; };
+		52DEA08C267B9B2900ED1447 /* MusicSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DEA08B267B9B2900ED1447 /* MusicSectionHeader.swift */; };
+		52DEA08F267BA60800ED1447 /* MusicRecentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DEA08E267BA60800ED1447 /* MusicRecentCell.swift */; };
+		52DEA092267BBA6C00ED1447 /* MusicNewSinglesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DEA091267BBA6C00ED1447 /* MusicNewSinglesCell.swift */; };
+		52DEA095267BC21100ED1447 /* MusicRecentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DEA094267BC21100ED1447 /* MusicRecentViewController.swift */; };
+		52DEA098267BC23000ED1447 /* MusicRecentCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DEA097267BC23000ED1447 /* MusicRecentCoordinator.swift */; };
+		52DEA09C267BC2A200ED1447 /* MusicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DEA09B267BC2A200ED1447 /* MusicViewModel.swift */; };
+		52DEA0A1267C9D1B00ED1447 /* RecentCurvedBgImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DEA0A0267C9D1B00ED1447 /* RecentCurvedBgImageView.swift */; };
+		52DEA0A5267CA31300ED1447 /* MusicArtistsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DEA0A4267CA31300ED1447 /* MusicArtistsCell.swift */; };
+		52DEA0AB267DDDDB00ED1447 /* RelaxFullPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DEA0AA267DDDDB00ED1447 /* RelaxFullPlayerView.swift */; };
+		52DEA0B0267DE0E200ED1447 /* RelaxFullPlayerCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DEA0AF267DE0E200ED1447 /* RelaxFullPlayerCollectionView.swift */; };
+		52DEA0B3267DF85900ED1447 /* RelaxFullPlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DEA0B2267DF85900ED1447 /* RelaxFullPlayerCell.swift */; };
+		52DEA0B7267DFA9F00ED1447 /* RelaxFullPlayerLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DEA0B6267DFA9F00ED1447 /* RelaxFullPlayerLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +83,35 @@
 		52D7BCD0267633D00032E52F /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 		52D7BCD4267639E20032E52F /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 		52D7BCE22676458C0032E52F /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
+		52DEA032267945F000ED1447 /* RelaxSectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxSectionViewController.swift; sourceTree = "<group>"; };
+		52DEA03726794B3800ED1447 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		52DEA03C26794BAA00ED1447 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		52DEA04426794DAF00ED1447 /* RelaxCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxCoordinator.swift; sourceTree = "<group>"; };
+		52DEA0482679E8DD00ED1447 /* MusicCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCoordinator.swift; sourceTree = "<group>"; };
+		52DEA04B2679E8EE00ED1447 /* DreamCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamCoordinator.swift; sourceTree = "<group>"; };
+		52DEA04F2679EDF000ED1447 /* RelaxSectionCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxSectionCoordinator.swift; sourceTree = "<group>"; };
+		52DEA0532679EE7600ED1447 /* RelaxViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxViewModel.swift; sourceTree = "<group>"; };
+		52DEA05E267A272600ED1447 /* RelaxSongsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxSongsView.swift; sourceTree = "<group>"; };
+		52DEA061267A2F1B00ED1447 /* RelaxSongsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxSongsCell.swift; sourceTree = "<group>"; };
+		52DEA064267A5EE000ED1447 /* RelaxPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxPlayerView.swift; sourceTree = "<group>"; };
+		52DEA067267A6D8700ED1447 /* UILabel+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Ext.swift"; sourceTree = "<group>"; };
+		52DEA06B267A89B300ED1447 /* TrackInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackInfo.swift; sourceTree = "<group>"; };
+		52DEA071267A8AE900ED1447 /* RelaxSongsCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxSongsCellViewModel.swift; sourceTree = "<group>"; };
+		52DEA076267A8CB600ED1447 /* RelaxSongsCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxSongsCollectionView.swift; sourceTree = "<group>"; };
+		52DEA07D267A91B600ED1447 /* RelaxSectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxSectionViewModel.swift; sourceTree = "<group>"; };
+		52DEA082267B42B300ED1447 /* RelaxBgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxBgView.swift; sourceTree = "<group>"; };
+		52DEA08B267B9B2900ED1447 /* MusicSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSectionHeader.swift; sourceTree = "<group>"; };
+		52DEA08E267BA60800ED1447 /* MusicRecentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicRecentCell.swift; sourceTree = "<group>"; };
+		52DEA091267BBA6C00ED1447 /* MusicNewSinglesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicNewSinglesCell.swift; sourceTree = "<group>"; };
+		52DEA094267BC21100ED1447 /* MusicRecentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicRecentViewController.swift; sourceTree = "<group>"; };
+		52DEA097267BC23000ED1447 /* MusicRecentCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicRecentCoordinator.swift; sourceTree = "<group>"; };
+		52DEA09B267BC2A200ED1447 /* MusicViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewModel.swift; sourceTree = "<group>"; };
+		52DEA0A0267C9D1B00ED1447 /* RecentCurvedBgImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentCurvedBgImageView.swift; sourceTree = "<group>"; };
+		52DEA0A4267CA31300ED1447 /* MusicArtistsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicArtistsCell.swift; sourceTree = "<group>"; };
+		52DEA0AA267DDDDB00ED1447 /* RelaxFullPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxFullPlayerView.swift; sourceTree = "<group>"; };
+		52DEA0AF267DE0E200ED1447 /* RelaxFullPlayerCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxFullPlayerCollectionView.swift; sourceTree = "<group>"; };
+		52DEA0B2267DF85900ED1447 /* RelaxFullPlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxFullPlayerCell.swift; sourceTree = "<group>"; };
+		52DEA0B6267DFA9F00ED1447 /* RelaxFullPlayerLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxFullPlayerLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +128,7 @@
 		5204D0EB2677CCE400DD0388 /* RelaxCollection */ = {
 			isa = PBXGroup;
 			children = (
+				52DEA082267B42B300ED1447 /* RelaxBgView.swift */,
 				5204D1042677D14500DD0388 /* RelaxCollectionView.swift */,
 				5204D0EC2677CD0A00DD0388 /* RelaxCell.swift */,
 			);
@@ -108,8 +167,12 @@
 				52D7BCAB267632380032E52F /* AppDelegate.swift */,
 				52D7BCAD267632380032E52F /* SceneDelegate.swift */,
 				52D7BCCF267633C20032E52F /* Extensions */,
+				52DEA06A267A89A200ED1447 /* Models */,
+				52DEA0B5267DFA8F00ED1447 /* Layouts */,
 				52D7BCDB26763D9C0032E52F /* Views */,
+				52DEA0522679EE6B00ED1447 /* ViewModels */,
 				52D7BCC4267632F30032E52F /* Controllers */,
+				52DEA03626794B1C00ED1447 /* Coordinators */,
 				52D7BCB42676323B0032E52F /* Assets.xcassets */,
 				5204D0F52677CEAA00DD0388 /* Fonts */,
 				52D7BCB62676323B0032E52F /* LaunchScreen.storyboard */,
@@ -121,10 +184,10 @@
 		52D7BCC4267632F30032E52F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				52D7BCC0267632A70032E52F /* MainTabBarController.swift */,
-				52D7BCC8267633310032E52F /* MusicViewController.swift */,
-				52D7BCAF267632380032E52F /* RelaxViewController.swift */,
-				52D7BCCB2676333B0032E52F /* DreamViewController.swift */,
+				52DEA05B267A0EEE00ED1447 /* TabBarController */,
+				52DEA030267945DC00ED1447 /* Relax */,
+				52DEA059267A0EE800ED1447 /* Music */,
+				52DEA057267A0EE400ED1447 /* Dream */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -154,6 +217,7 @@
 				5204D0E726775CE200DD0388 /* UIView+Ext.swift */,
 				5204D0EF2677CE7100DD0388 /* UIFont+Ext.swift */,
 				5204D0F22677CE8000DD0388 /* UIDevice+Ext.swift */,
+				52DEA067267A6D8700ED1447 /* UILabel+Ext.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -162,7 +226,8 @@
 			isa = PBXGroup;
 			children = (
 				52D7BCE0267645810032E52F /* CustomTabBar */,
-				5204D0EB2677CCE400DD0388 /* RelaxCollection */,
+				52DEA088267B9B1400ED1447 /* Relax */,
+				52DEA08A267B9B1800ED1447 /* Music */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -174,6 +239,196 @@
 				5204D0E426767F6C00DD0388 /* TapNavigationMenu.swift */,
 			);
 			path = CustomTabBar;
+			sourceTree = "<group>";
+		};
+		52DEA030267945DC00ED1447 /* Relax */ = {
+			isa = PBXGroup;
+			children = (
+				52D7BCAF267632380032E52F /* RelaxViewController.swift */,
+				52DEA032267945F000ED1447 /* RelaxSectionViewController.swift */,
+			);
+			path = Relax;
+			sourceTree = "<group>";
+		};
+		52DEA03626794B1C00ED1447 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				52DEA03A26794B8C00ED1447 /* CoordinatorProtocol */,
+				52DEA080267A921F00ED1447 /* Relax */,
+				52DEA086267B938C00ED1447 /* Music */,
+				52DEA04B2679E8EE00ED1447 /* DreamCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		52DEA03A26794B8C00ED1447 /* CoordinatorProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				52DEA03726794B3800ED1447 /* Coordinator.swift */,
+				52DEA03C26794BAA00ED1447 /* AppCoordinator.swift */,
+			);
+			path = CoordinatorProtocol;
+			sourceTree = "<group>";
+		};
+		52DEA0522679EE6B00ED1447 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				52DEA06F267A8ADD00ED1447 /* Relax */,
+				52DEA09A267BC29800ED1447 /* Music */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		52DEA057267A0EE400ED1447 /* Dream */ = {
+			isa = PBXGroup;
+			children = (
+				52D7BCCB2676333B0032E52F /* DreamViewController.swift */,
+			);
+			path = Dream;
+			sourceTree = "<group>";
+		};
+		52DEA059267A0EE800ED1447 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				52D7BCC8267633310032E52F /* MusicViewController.swift */,
+				52DEA094267BC21100ED1447 /* MusicRecentViewController.swift */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		52DEA05B267A0EEE00ED1447 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				52D7BCC0267632A70032E52F /* MainTabBarController.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		52DEA05D267A271000ED1447 /* RelaxSongsView */ = {
+			isa = PBXGroup;
+			children = (
+				52DEA05E267A272600ED1447 /* RelaxSongsView.swift */,
+				52DEA074267A8CA900ED1447 /* RelaxSongsCollectionView */,
+				52DEA07A267A8F7C00ED1447 /* RelaxPlayer */,
+				52DEA0A9267DDDCF00ED1447 /* RelaxFullPlayer */,
+			);
+			path = RelaxSongsView;
+			sourceTree = "<group>";
+		};
+		52DEA06A267A89A200ED1447 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				52DEA06B267A89B300ED1447 /* TrackInfo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		52DEA06F267A8ADD00ED1447 /* Relax */ = {
+			isa = PBXGroup;
+			children = (
+				52DEA0532679EE7600ED1447 /* RelaxViewModel.swift */,
+				52DEA07D267A91B600ED1447 /* RelaxSectionViewModel.swift */,
+				52DEA071267A8AE900ED1447 /* RelaxSongsCellViewModel.swift */,
+			);
+			path = Relax;
+			sourceTree = "<group>";
+		};
+		52DEA074267A8CA900ED1447 /* RelaxSongsCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				52DEA076267A8CB600ED1447 /* RelaxSongsCollectionView.swift */,
+				52DEA061267A2F1B00ED1447 /* RelaxSongsCell.swift */,
+			);
+			path = RelaxSongsCollectionView;
+			sourceTree = "<group>";
+		};
+		52DEA07A267A8F7C00ED1447 /* RelaxPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				52DEA064267A5EE000ED1447 /* RelaxPlayerView.swift */,
+			);
+			path = RelaxPlayer;
+			sourceTree = "<group>";
+		};
+		52DEA080267A921F00ED1447 /* Relax */ = {
+			isa = PBXGroup;
+			children = (
+				52DEA04426794DAF00ED1447 /* RelaxCoordinator.swift */,
+				52DEA04F2679EDF000ED1447 /* RelaxSectionCoordinator.swift */,
+			);
+			path = Relax;
+			sourceTree = "<group>";
+		};
+		52DEA086267B938C00ED1447 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				52DEA0482679E8DD00ED1447 /* MusicCoordinator.swift */,
+				52DEA097267BC23000ED1447 /* MusicRecentCoordinator.swift */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		52DEA088267B9B1400ED1447 /* Relax */ = {
+			isa = PBXGroup;
+			children = (
+				5204D0EB2677CCE400DD0388 /* RelaxCollection */,
+				52DEA05D267A271000ED1447 /* RelaxSongsView */,
+			);
+			path = Relax;
+			sourceTree = "<group>";
+		};
+		52DEA08A267B9B1800ED1447 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				52DEA08B267B9B2900ED1447 /* MusicSectionHeader.swift */,
+				52DEA0A7267CA36400ED1447 /* MusicSectionCells */,
+				52DEA09F267C9D0300ED1447 /* MusicRecentSection */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		52DEA09A267BC29800ED1447 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				52DEA09B267BC2A200ED1447 /* MusicViewModel.swift */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		52DEA09F267C9D0300ED1447 /* MusicRecentSection */ = {
+			isa = PBXGroup;
+			children = (
+				52DEA0A0267C9D1B00ED1447 /* RecentCurvedBgImageView.swift */,
+			);
+			path = MusicRecentSection;
+			sourceTree = "<group>";
+		};
+		52DEA0A7267CA36400ED1447 /* MusicSectionCells */ = {
+			isa = PBXGroup;
+			children = (
+				52DEA0A4267CA31300ED1447 /* MusicArtistsCell.swift */,
+				52DEA08E267BA60800ED1447 /* MusicRecentCell.swift */,
+				52DEA091267BBA6C00ED1447 /* MusicNewSinglesCell.swift */,
+			);
+			path = MusicSectionCells;
+			sourceTree = "<group>";
+		};
+		52DEA0A9267DDDCF00ED1447 /* RelaxFullPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				52DEA0AA267DDDDB00ED1447 /* RelaxFullPlayerView.swift */,
+				52DEA0AF267DE0E200ED1447 /* RelaxFullPlayerCollectionView.swift */,
+				52DEA0B2267DF85900ED1447 /* RelaxFullPlayerCell.swift */,
+			);
+			path = RelaxFullPlayer;
+			sourceTree = "<group>";
+		};
+		52DEA0B5267DFA8F00ED1447 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				52DEA0B6267DFA9F00ED1447 /* RelaxFullPlayerLayout.swift */,
+			);
+			path = Layouts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,21 +504,50 @@
 			buildActionMask = 2147483647;
 			files = (
 				52D7BCB0267632380032E52F /* RelaxViewController.swift in Sources */,
+				52DEA04526794DB000ED1447 /* RelaxCoordinator.swift in Sources */,
+				52DEA0B0267DE0E200ED1447 /* RelaxFullPlayerCollectionView.swift in Sources */,
+				52DEA05F267A272600ED1447 /* RelaxSongsView.swift in Sources */,
+				52DEA0492679E8DD00ED1447 /* MusicCoordinator.swift in Sources */,
+				52DEA092267BBA6C00ED1447 /* MusicNewSinglesCell.swift in Sources */,
+				52DEA098267BC23000ED1447 /* MusicRecentCoordinator.swift in Sources */,
+				52DEA09C267BC2A200ED1447 /* MusicViewModel.swift in Sources */,
+				52DEA0AB267DDDDB00ED1447 /* RelaxFullPlayerView.swift in Sources */,
+				52DEA072267A8AE900ED1447 /* RelaxSongsCellViewModel.swift in Sources */,
 				52D7BCC9267633310032E52F /* MusicViewController.swift in Sources */,
 				5204D0F02677CE7100DD0388 /* UIFont+Ext.swift in Sources */,
+				52DEA068267A6D8700ED1447 /* UILabel+Ext.swift in Sources */,
 				5204D0E526767F6C00DD0388 /* TapNavigationMenu.swift in Sources */,
 				52D7BCD1267633D00032E52F /* UIViewController+Ext.swift in Sources */,
 				5204D0F32677CE8000DD0388 /* UIDevice+Ext.swift in Sources */,
+				52DEA062267A2F1B00ED1447 /* RelaxSongsCell.swift in Sources */,
 				5204D1092677D5FA00DD0388 /* UICollectionView+Ext.swift in Sources */,
+				52DEA03D26794BAA00ED1447 /* AppCoordinator.swift in Sources */,
 				52D7BCAC267632380032E52F /* AppDelegate.swift in Sources */,
+				52DEA03826794B3800ED1447 /* Coordinator.swift in Sources */,
+				52DEA08F267BA60800ED1447 /* MusicRecentCell.swift in Sources */,
+				52DEA04C2679E8EE00ED1447 /* DreamCoordinator.swift in Sources */,
 				52D7BCE32676458C0032E52F /* TabItem.swift in Sources */,
+				52DEA0B3267DF85900ED1447 /* RelaxFullPlayerCell.swift in Sources */,
 				52D7BCC1267632A70032E52F /* MainTabBarController.swift in Sources */,
+				52DEA07E267A91B600ED1447 /* RelaxSectionViewModel.swift in Sources */,
+				52DEA0A5267CA31300ED1447 /* MusicArtistsCell.swift in Sources */,
+				52DEA0502679EDF000ED1447 /* RelaxSectionCoordinator.swift in Sources */,
 				5204D0E826775CE200DD0388 /* UIView+Ext.swift in Sources */,
+				52DEA095267BC21100ED1447 /* MusicRecentViewController.swift in Sources */,
 				52D7BCD5267639E20032E52F /* UIColor+Ext.swift in Sources */,
+				52DEA0B7267DFA9F00ED1447 /* RelaxFullPlayerLayout.swift in Sources */,
+				52DEA06C267A89B300ED1447 /* TrackInfo.swift in Sources */,
+				52DEA08C267B9B2900ED1447 /* MusicSectionHeader.swift in Sources */,
 				52D7BCCC2676333B0032E52F /* DreamViewController.swift in Sources */,
+				52DEA065267A5EE000ED1447 /* RelaxPlayerView.swift in Sources */,
 				5204D1052677D14500DD0388 /* RelaxCollectionView.swift in Sources */,
 				5204D0ED2677CD0A00DD0388 /* RelaxCell.swift in Sources */,
+				52DEA0A1267C9D1B00ED1447 /* RecentCurvedBgImageView.swift in Sources */,
+				52DEA083267B42B300ED1447 /* RelaxBgView.swift in Sources */,
 				52D7BCAE267632380032E52F /* SceneDelegate.swift in Sources */,
+				52DEA077267A8CB600ED1447 /* RelaxSongsCollectionView.swift in Sources */,
+				52DEA033267945F000ED1447 /* RelaxSectionViewController.swift in Sources */,
+				52DEA0542679EE7600ED1447 /* RelaxViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
